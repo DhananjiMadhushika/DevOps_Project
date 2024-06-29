@@ -1,0 +1,266 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../public/images/backgrounds/salon.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.home.content span {
+  font-size: 3rem;
+  letter-spacing: 5rem;
+  padding-bottom: 5rem;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.home.content h3 {
+  color: var(--black);
+  font-size: 8rem;
+  line-height: 8rem;
+  font-weight: 900;
+}
+
+.table-header {
+  background-color: #ddc9f5;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.services-container {
+  text-align: center;
+  background-color: #ddc9f5;
+  padding: 20px;
+
+}
+
+.service-list {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-square {
+  width: 40px;
+  height: 300px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.service-navigation {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.service-navigation button {
+  background: #0074D9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.service-image:hover {
+  transform: scale(1.1);
+  /* Change the scale value as needed to adjust the image size on hover */
+}
+
+
+.appoinment-container {
+  background: url(../public/images/7.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex
+}
+
+
+.signup-container {
+  background-image: url(../public/images/7.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.signup-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.signup-container form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-container .form-group {
+  margin-bottom: 15px;
+}
+
+.signup-container .form-group label {
+  color: white;
+}
+
+.signup-container .form-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.signup-container .btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.signup-wrapper {
+  border: 1px solid black;
+  padding: 20px;
+  align-items: center;
+
+
+}
+
+.signup-form {
+  background-color: #443854;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.signup-heading {
+  margin-bottom: 20px;
+  align-items: center;
+  color: black;
+}
+
+
+.appointment-container {
+  background-image: url(../public/images/6.jpg);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+
+
+.services-container {
+  background-color: whitesmoke;
+  position: relative;
+
+}
+
+.back-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.add-service-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.service-list-heading {
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+
+.table-header {
+  background-color: #341763;
+  color: white;
+}
+
+
+.admin-window {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #1b1229;
+  color: white;
+}
+
+
+.admin-window .nav-link {
+  color: white;
+}
+
+
+.admin-window .nav-link:hover {
+  color: #3498db;
+}
+
+.scrollable-form {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+
+.imageWrapper {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.imageWrapper:hover img {
+  transform: scale(1.1);
+  /* Increase the size by 10% */
+}
+
+/*Gallery*/
+
+.resized-image {
+  max-width: 700px;
+  max-height: 700px;
+  align-items: center;
+  /* Adjust the height as needed */
+}
+
+.gallery-image {
+  cursor: pointer;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
+}
+
+/* styles.css */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
