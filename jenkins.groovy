@@ -8,10 +8,15 @@ pipeline {
     environment {
         REPO_URL = 'https://github.com/DhananjiMadhushika/DevOps_Project'
         BRANCH = 'main'
-        DOCKER_REGISTRY = 'dhananji123'
         APP_NAME = 'SMS'
-        PORT = '3000'
     }
+
+    stages {
+        stage('Clean Workspace') {
+            steps {
+                cleanWs()
+            }
+        }
 
     stages {
         stage('Clone Repository') {
