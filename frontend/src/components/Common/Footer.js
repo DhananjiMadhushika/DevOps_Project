@@ -12,7 +12,7 @@ const Footer = () => {
                         <img src='./images/image.png' alt="Salon Logo" style={{ Width: '250px', height: '180px' }} />
                     </div>
                     <div className="col-md-4" style={{marginTop:'35px',marginLeft:'30px'}}>
-                        <h5>Contact Us</h5>
+                        <h5>Contact Us on dhananji</h5>
                         <ul className="list-unstyled">
                             <li>
                                 <FontAwesomeIcon icon={faPhone} /> Phone: (123) 456-7890
