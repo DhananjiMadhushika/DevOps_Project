@@ -21,7 +21,7 @@ const Home = () => {
     <div>
       <section className='home'>
         <div className='content' style={boxStyle}>
-          <span>Hi</span>
+          <span>Hi welcome</span>
           <h1 style={{animation:'fadeInUp 1s ease-out'}}>We Make You Beautiful......</h1>
           
           <p>We are your premier destination for all things beauty and relaxation. Our salon is designed to be a haven where you can escape from the daily grind and indulge in a variety of pampering treatments. Our skilled and friendly team of professionals is committed to enhancing your natural beauty and helping you unwind in style.</p>
