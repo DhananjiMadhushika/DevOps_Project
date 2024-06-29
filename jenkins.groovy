@@ -18,7 +18,6 @@ pipeline {
             }
         }
 
-    stages {
         stage('Clone Repository') {
             steps {
                 git branch: "${BRANCH}", url: "${REPO_URL}"
@@ -40,7 +39,6 @@ pipeline {
                 }
             }
         }
-
 
         stage('Deploy Application') {
             steps {
